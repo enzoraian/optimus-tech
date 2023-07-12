@@ -1,0 +1,97 @@
+/*===========*/
+/*==HEADER==*/
+/*===========*/
+
+header {
+    height: 8rem;
+}
+
+header .container .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .container .logo h1 {
+    color: #3A404E;
+    font-size: 1.8rem;
+    margin-left: 0.8rem;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .menu {
+    display: flex;
+    align-items: center;
+}
+
+header .container .menu ul {
+    display: flex;
+    align-items: center;
+    margin-right: 39.8rem;
+}
+
+header .container .menu ul li:not(:last-child) {
+    margin-right: 3.2rem;
+}
+
+header .container .menu-action .menu-item {
+    margin-right: 3rem;
+    background-color: transparent;
+
+}
+
+/*============*/
+/*==ABOUT US==*/
+/*============*/
+
+.about-us {
+    padding: 9.6rem 0;
+}
+
+.about-us .main-area {
+    margin-bottom: 10.7rem;
+}
+
+.about-us .container .main-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us .container .main-area h2 {
+    color: var(--light-black);
+    font-size: 4.8rem;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+}
+
+.about-us .container .main-area p {
+    color: var(--light-gray);
+    font-size: 2rem;
+    max-width: 79rem;
+}
+
+.about-us .container .second-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us .container .second-area .content {}
+
+.about-us .container .second-area .content span {
+    font-size: 6rem;
+}
+
+.about-us .container .second-area .content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.about-us .container .second-area .content p {
+    font-size: 1.6rem;
+    max-width: 26rem;
+}

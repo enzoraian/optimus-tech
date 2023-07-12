@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--primary-font);
+    /*fonte mais usada no site*/
+}
+
+html {
+    font-size: 62.5%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*Responsividade - imagem diminui quando a tela diminui*/
+img {
+    max-width: 100%;
+    display: block;
+}
