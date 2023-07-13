@@ -1,9 +1,158 @@
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
 
-@media (max-width: 991px) {}
+    /*===========*/
+    /*==HEADER==*/
+    /*===========*/
+    header .container .menu ul {
+        margin-right: 16rem;
+    }
 
-@media (max-width: 768px) {}
+    /*======================*/
+    /*==ABOUT US SECOND AREA==*/
+    /*======================*/
 
-@media (max-width: 600px) {}
+    .about-us .second-area .content {
+        max-width: 24%;
+    }
 
-@media (max-width: 480px) {}
+}
+
+@media (max-width: 991px) {
+
+    html {
+        font-size: 58%;
+    }
+
+    /*===========*/
+    /*==HEADER==*/
+    /*===========*/
+
+    header .container .menu ul {
+        margin-right: 7rem;
+    }
+
+    /*======================*/
+    /*==HIRING SECOND AREA==*/
+    /*======================*/
+
+    .hiring .second-area .container .open-jobs .job .open-job {
+        padding: 2.4rem 18rem 2.4rem 2.4rem;
+    }
+
+    /*======================*/
+    /*==SECTION FEEDBACK==*/
+    /*======================*/
+
+    .section-feedback .container .feedback {
+        padding: 4rem;
+    }
+
+    .section-feedback .container .feedback h3 {
+        font-size: 2.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*menu mobile*/
+    header .container .menu {
+        display: none;
+    }
+
+    header .container .menu-mobile {
+        display: block;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    header .container .menu-mobile .icon-close {
+        display: none;
+    }
+
+    /*======================*/
+    /*==ABOUT US SECOND AREA==*/
+    /*======================*/
+
+    .about-us .container .second-area {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .about-us .container .second-area .content {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /*======================*/
+    /*==ABOUT US SECOND AREA==*/
+    /*======================*/
+
+    .about-us .container .second-area {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*======================*/
+    /*==HIRING SECOND AREA==*/
+    /*======================*/
+
+    .hiring .second-area .container .open-jobs .job .open-job {
+        padding: 2.4rem 8rem 2.4rem 2.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    /*======================*/
+    /*==ABOUT US MAIN AREA==*/
+    /*======================*/
+
+    .about-us {
+        padding: 4rem 0;
+    }
+
+    .about-us .main-area {
+        margin-bottom: 4rem;
+    }
+
+    /*====================*/
+    /*==HIRING MAIN AREA==*/
+    /*====================*/
+
+    .hiring {
+        padding: 4rem 0;
+    }
+
+    /*======================*/
+    /*==HIRING SECOND AREA==*/
+    /*======================*/
+
+    .hiring .second-area {
+        padding: 4rem 0;
+    }
+
+    /*======================*/
+    /*==SECTION FEEDBACK==*/
+    /*======================*/
+
+    .section-feedback {
+        padding-bottom: 4rem;
+    }
+
+
+    /*==========*/
+    /*==FOOTER==*/
+    /*==========*/
+
+    footer {
+        padding: 4rem 0;
+    }
+}

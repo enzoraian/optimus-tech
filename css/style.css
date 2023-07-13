@@ -3,6 +3,17 @@
 /*===========*/
 
 header {
+    background-color: #F9FAFB;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+
+    height: 8rem;
+    
+}
+
+header .container{
     height: 8rem;
 }
 
@@ -31,7 +42,7 @@ header .container .menu {
 header .container .menu ul {
     display: flex;
     align-items: center;
-    margin-right: 39.8rem;
+    margin-right: 30rem;
 }
 
 header .container .menu ul li:not(:last-child) {
@@ -44,11 +55,18 @@ header .container .menu-action .menu-item {
 
 }
 
-/*============*/
-/*==ABOUT US==*/
-/*============*/
+/*menu mobile*/
+header .container .menu-mobile{
+    display: none;
+}
+
+
+/*======================*/
+/*==ABOUT US MAIN AREA==*/
+/*======================*/
 
 .about-us {
+    margin-top: 8rem;
     padding: 9.6rem 0;
 }
 
@@ -67,20 +85,25 @@ header .container .menu-action .menu-item {
     font-size: 4.8rem;
     font-weight: 600;
     margin-bottom: 2.4rem;
+    text-align: center;
 }
 
 .about-us .container .main-area p {
     color: var(--light-gray);
     font-size: 2rem;
     max-width: 79rem;
+    text-align: center;
 }
+
+/*======================*/
+/*==ABOUT US SECOND AREA==*/
+/*======================*/
+
 
 .about-us .container .second-area {
     display: flex;
     justify-content: space-around;
 }
-
-.about-us .container .second-area .content {}
 
 .about-us .container .second-area .content span {
     font-size: 6rem;
@@ -121,12 +144,14 @@ header .container .menu-action .menu-item {
     font-size: 3.6rem;
     font-weight: 600;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .hiring .container .main-area .top p {
     color: var(--light-gray);
     font-size: 2rem;
     font-weight: 400;
+    text-align: center;
 }
 
 .hiring .container .main-area .image {
@@ -241,6 +266,7 @@ footer .container{
 footer .container .newsletter h3{
     font-size: 3.6rem;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 footer .container .newsletter p{
@@ -248,6 +274,7 @@ footer .container .newsletter p{
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 4rem;
+    text-align: center;
 }
 
 footer .container .newsletter form{
