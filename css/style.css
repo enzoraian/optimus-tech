@@ -95,3 +95,182 @@ header .container .menu-action .menu-item {
     font-size: 1.6rem;
     max-width: 26rem;
 }
+
+/*====================*/
+/*==HIRING MAIN AREA==*/
+/*====================*/
+
+.hiring {
+    padding: 6rem 0;
+}
+
+.hiring .container .main-area .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6.4rem;
+}
+
+.hiring .container .main-area .top .tag {
+    background-color: #8E24240D;
+    padding: 0.2rem;
+    border-radius: 1rem;
+}
+
+.hiring .container .main-area .top h2 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.hiring .container .main-area .top p {
+    color: var(--light-gray);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.hiring .container .main-area .image {
+    display: flex;
+    justify-content: center;
+}
+
+/*======================*/
+/*==HIRING SECOND AREA==*/
+/*======================*/
+
+.hiring .second-area {
+    padding-top: 6.4rem;
+    padding-bottom: 9.6rem;
+}
+
+.hiring .second-area .container {
+    display: flex;
+    justify-content: center;
+}
+
+.hiring .second-area .container .open-jobs .job .job-area {
+    color: var(--light-black);
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
+}
+
+.hiring .second-area .container .open-jobs .job .open-job {
+    border: 0.2rem solid #EAECF0;
+    border-radius: 1rem;
+    padding: 2.4rem 48rem 2.4rem 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.hiring .second-area .container .open-jobs .job .open-job h4 {
+    color: var(--light-black);
+    font-size: 1.8rem;
+    margin-bottom: 3.2rem;
+}
+
+.hiring .second-area .container .open-jobs .job .open-job .job-description {
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.hiring .second-area .container .open-jobs .job .open-job .job-description p {
+    font-size: 1.6rem;
+}
+
+/*======================*/
+/*==SECTION FEEDBACK==*/
+/*======================*/
+
+.section-feedback {
+    padding-bottom: 9.6rem;
+}
+
+.section-feedback .container .feedback {
+    background-color: rgba(195, 25, 25, 3%);
+    padding: 6.4rem;
+    border-radius: 1rem;
+}
+
+.section-feedback .container .feedback .tag {
+    display: block;
+    text-align: center;
+}
+
+.section-feedback .container .feedback h3{
+    font-size: 3.6rem;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.section-feedback .container .feedback .person-feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-feedback .container .feedback .person-feedback img{
+    width: 5rem;
+    margin-bottom: 1.6rem;
+}
+
+.section-feedback .container .feedback .person-feedback h4{
+    font-size: 1.6rem;
+    margin-bottom: 0.4rem;
+}
+
+.section-feedback .container .feedback .person-feedback p{
+    color: var(--light-gray);
+    font-size: 1.4rem;
+}
+
+/*==========*/
+/*==FOOTER==*/
+/*==========*/
+
+footer{
+    background-color: #F9FAFB;
+    padding: 9.6rem 0;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .container .newsletter h3{
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+footer .container .newsletter p{
+    color: var(--light-gray);
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+footer .container .newsletter form{
+    display: flex;
+    justify-content: center;
+}
+
+footer .container .newsletter form input{
+    font-size: 1.6rem;
+    border: 0.2rem solid #EAECF0;
+    border-radius: 0.4rem;
+    padding: 1rem;
+}
+
+footer .container .newsletter form button{
+    margin-left: 1.6rem;
+}
+
+footer .container .copy{
+    margin-top: 3.2rem;
+}
+
+footer .container .copy p{
+    font-size: 1.6rem;
+}
+
