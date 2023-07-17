@@ -56,16 +56,70 @@
 
     /*menu mobile*/
     header .container .menu {
-        display: none;
+
+        background-color: #F9FAFB;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+
+    header .container .menu ul {
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .container .menu ul li:not(:last-child) {
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+
+    header .container .btn-primary {
+        margin-top: 4rem;
+    }
+
+    header .container .menu ul li a,
+    header .container .btn-primary {
+        font-size: 2.4rem;
     }
 
     header .container .menu-mobile {
         display: block;
-        width: 5rem;
-        height: 5rem;
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
     }
 
-    header .container .menu-mobile .icon-close {
+    /*Implementação Menu Mobile*/
+    header .container .menu {
+        opacity: 0;
+        pointer-events: none;
+        visibility: hidden;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-open .container .menu {
+        opacity: 1;
+        pointer-events: all;
+        visibility: visible;
+        transition: all 1s ease-in-out;
+    }
+
+    .nav-open .container .menu-mobile .icon-close {
+        display: block;
+    }
+
+    .nav-open .container .menu-mobile .icon-open {
         display: none;
     }
 
